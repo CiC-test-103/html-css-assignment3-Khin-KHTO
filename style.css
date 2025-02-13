@@ -1,6 +1,7 @@
 /** Variable Imports **/
 @import "./variables.css";
 
+
 /**
   CSS Reset
   Source: https://www.joshwcomeau.com/css/custom-css-reset/
@@ -70,18 +71,41 @@ h6 {
 /** Your CSS Below **/
 
 * {
-  background-color: rgb(245, 236, 215);
+  background-color: rgb(243, 229, 216);
 }
 
 body {
-  margin: 0 auto;
-  padding: 20px;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
+  display: flexbox;
+  border-radius: 15px;
+  font-family: outfit;
+  font-size: 15px;
+  box-sizing: content-box;
 }
 
 img {
-  width: 400px;
+  width: 700px;
   display: block;
+  border-radius: 15px;
 }
+
+h1 {
+color: black;
+font-family: young-serif;
+
+}
+
+h2 {
+  color: #7b3e2f;
+  font-family: young-serif ;
+}
+
+h3{
+  color: #774359;
+}
+
 
 /** Attribution CSS **/
 .attribution {
@@ -91,3 +115,6 @@ img {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+
+/** color codes :  main-#f3e5d8, prepBackground-#fff7fc, prepTitle-#774359, h2-#7b3e2f, 
