@@ -69,6 +69,20 @@ h6 {
 
 /** Your CSS Below **/
 
+* {
+  background-color: rgb(245, 236, 215);
+}
+
+body {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+img {
+  width: 400px;
+  display: block;
+}
+
 /** Attribution CSS **/
 .attribution {
   font-size: 11px;
