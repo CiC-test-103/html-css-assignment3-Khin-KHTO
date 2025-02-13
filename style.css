@@ -5,7 +5,6 @@
   CSS Reset
   Source: https://www.joshwcomeau.com/css/custom-css-reset/
 **/
-
 /* 1. Use a more-intuitive box-sizing model */
 *,
 *::before,
@@ -14,20 +13,14 @@
 }
 /* 2. Remove default margin */
 * {
-  margin: 10px;
+  margin: 0;
 }
-
-#omlette {
-}
-
 body {
   /* 3. Add accessible line-height */
-  line-height: 30px;
+  line-height: 1.5;
   /* 4. Improve text rendering */
   -webkit-font-smoothing: antialiased;
-  background-color: rgb(245, 219, 186);
 }
-
 /* 5. Improve media defaults */
 img,
 picture,
