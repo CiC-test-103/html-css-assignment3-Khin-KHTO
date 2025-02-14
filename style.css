@@ -1,7 +1,6 @@
 /** Variable Imports **/
 @import "./variables.css";
 
-
 /**
   CSS Reset
   Source: https://www.joshwcomeau.com/css/custom-css-reset/
@@ -70,19 +69,25 @@ h6 {
 
 /** Your CSS Below **/
 
-* {
-  background-color: rgb(243, 229, 216);
+body {
+  background-color: #f3e5d8;
+  display: flex; /*to ask*/
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  font-size: 11px;
+  gap: 20px;
 }
 
-body {
-  max-width: 800px;
-  margin: 30px auto;
-  padding: 30px;
-  display: flexbox;
+.receipe {
+  background-color: white;
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
   border-radius: 15px;
-  font-family: outfit;
-  font-size: 15px;
-  box-sizing: content-box;
+  font-family: Outfit;
+  gap: 15px; /*to ask*/
+  line-height: 20px;
 }
 
 img {
@@ -92,20 +97,40 @@ img {
 }
 
 h1 {
-color: black;
-font-family: young-serif;
-
+  color: black;
+  font-family: young-serif;
 }
 
 h2 {
   color: #7b3e2f;
-  font-family: young-serif ;
+  font-family: young-serif;
 }
 
-h3{
-  color: #774359;
+h3 {
+  color: #74495d;
 }
 
+/* hr {
+  text-decoration-thickness: 0.5px;
+} to ask */
+
+.preparation_time {
+  display: flexbox;
+  background-color: #fff7fc;
+  border-radius: 15px;
+  text-indent: 30px;
+  font-size: 12px;
+}
+
+span {
+  font-weight: bold;
+}
+
+/* numbers bold {
+} to ask */
+
+/* table {
+} to ask */
 
 /** Attribution CSS **/
 .attribution {
@@ -116,5 +141,5 @@ h3{
   color: hsl(228, 45%, 44%);
 }
 
-
-/** color codes :  main-#f3e5d8, prepBackground-#fff7fc, prepTitle-#774359, h2-#7b3e2f, 
+/** color codes :  main-#f3e5d8, prepBackground-#fff7fc, 
+prepTitle-#774359, h2-#7b3e2f */
