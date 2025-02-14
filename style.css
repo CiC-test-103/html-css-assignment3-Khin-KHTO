@@ -75,62 +75,104 @@ body {
   justify-content: center;
   align-items: center;
   margin: 20px auto;
-  font-size: 11px;
-  gap: 20px;
+  font-size: 12px;
 }
 
 .receipe {
   background-color: white;
   width: 80%;
-  max-width: 600px;
-  padding: 20px;
+  max-width: 500px;
+  margin: 10px;
+  padding: 10px;
   border-radius: 15px;
-  font-family: Outfit;
-  gap: 15px; /*to ask*/
+  font-family: var(--fs-base);
+  text-align: justify;
   line-height: 20px;
-}
-
-img {
-  width: 700px;
-  display: block;
-  border-radius: 15px;
 }
 
 h1 {
   color: black;
-  font-family: young-serif;
+  font-family: var(--fs-accent);
+  margin-bottom: 10px;
 }
 
 h2 {
-  color: #7b3e2f;
-  font-family: young-serif;
+  color: var(--clr-brown800);
+  font-family: var(--fs-accent);
+  padding: 0 0 10px 15px;
 }
 
 h3 {
-  color: #74495d;
+  color: var(--clr-rose800);
+  font-weight: bold;
+  padding: 10px;
 }
 
-/* hr {
-  text-decoration-thickness: 0.5px;
-} to ask */
-
-.preparation_time {
-  display: flexbox;
-  background-color: #fff7fc;
-  border-radius: 15px;
-  text-indent: 30px;
-  font-size: 12px;
+hr {
+  border: 0.1px solid rgb(192, 189, 189);
+  margin: 10px;
 }
 
 span {
   font-weight: bold;
 }
 
-/* numbers bold {
-} to ask */
+img {
+  width: 700px;
+  display: block;
+  border-radius: 15px;
+  margin: 0 0 15px 0;
+}
 
-/* table {
-} to ask */
+.omelettePic_intro {
+  margin: 15px;
+}
+
+.preparation_time {
+  display: flexbox;
+  background-color: var(--clr-rose50);
+  border-radius: 15px;
+  text-indent: 15px;
+  font-size: 12px;
+  padding: 5px;
+  margin: 15px;
+}
+
+.preparation_time li::marker {
+  color: var(--clr-rose800);
+}
+
+.ingredients {
+  text-indent: 1px;
+  margin-right: 15px;
+}
+
+.instructions {
+  margin-right: 15px;
+}
+
+.instructions li::marker {
+  font-weight: bold;
+  color: var(--clr-brown800);
+}
+
+.nutrition p {
+  margin: 0 15px 0 15px;
+}
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 15px;
+}
+
+.value {
+  font-weight: bold;
+  color: var(--clr-brown800);
+}
+
+tr {
+  border-bottom: 0.2px solid grey;
+}
 
 /** Attribution CSS **/
 .attribution {
